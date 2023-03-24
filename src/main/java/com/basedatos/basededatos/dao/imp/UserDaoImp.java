@@ -4,7 +4,6 @@ import com.basedatos.basededatos.dao.UserDao;
 import com.basedatos.basededatos.models.UserModel;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
-
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import java.util.List;

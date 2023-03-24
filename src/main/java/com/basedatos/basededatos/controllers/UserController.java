@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/user")
 public class UserController {
 
@@ -28,8 +29,6 @@ public class UserController {
      UserModel createUser(@RequestBody UserModel userModel){
      return userService.register(userModel);
     }
-
-
 
     @PutMapping(value = "/update/{id}")
      UserModel updateUserById(@RequestBody UserModel userModel ){

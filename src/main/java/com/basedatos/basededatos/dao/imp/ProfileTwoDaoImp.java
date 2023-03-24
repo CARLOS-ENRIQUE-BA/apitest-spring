@@ -2,7 +2,6 @@ package com.basedatos.basededatos.dao.imp;
 
 import com.basedatos.basededatos.dao.ProfileTwoDao;
 import com.basedatos.basededatos.models.ProfileTwoModel;
-import com.basedatos.basededatos.models.UserModel;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
